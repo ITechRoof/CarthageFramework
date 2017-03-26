@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C2BBFFAA1E87CBF000F6EB41 /* CarthageFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C2BBFFA81E87CBF000F6EB41 /* CarthageFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2BBFFB11E87CCD800F6EB41 /* DesignFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BBFFB01E87CCD800F6EB41 /* DesignFramework.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C2BBFFA51E87CBF000F6EB41 /* CarthageFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CarthageFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BBFFA81E87CBF000F6EB41 /* CarthageFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarthageFramework.h; sourceTree = "<group>"; };
 		C2BBFFA91E87CBF000F6EB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2BBFFB01E87CCD800F6EB41 /* DesignFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignFramework.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				C2BBFFA81E87CBF000F6EB41 /* CarthageFramework.h */,
 				C2BBFFA91E87CBF000F6EB41 /* Info.plist */,
+				C2BBFFB01E87CCD800F6EB41 /* DesignFramework.swift */,
 			);
 			path = CarthageFramework;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					C2BBFFA41E87CBF000F6EB41 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2BBFFB11E87CCD800F6EB41 /* DesignFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +244,7 @@
 		C2BBFFAE1E87CBF000F6EB41 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -250,6 +256,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ITR.CarthageFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -257,6 +264,7 @@
 		C2BBFFAF1E87CBF000F6EB41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
