@@ -6,7 +6,7 @@
 //  Copyright © 2017 Kiruthika Selvavinayagam. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 public enum Theme {
     case Dark,
@@ -26,13 +26,13 @@ public class DesignButton: UIButton {
         switch theme {
         case .Dark:
             self.backgroundColor = UIColor.black
-            self.titleLabel?.textColor = UIColor.white
+            self.setTitleColor(UIColor.white, for: .normal)
         case .Light:
             self.backgroundColor = UIColor.white
-            self.titleLabel?.textColor = UIColor.black
+            self.setTitleColor(UIColor.black, for: .normal)
         case .Purple:
             self.backgroundColor = UIColor.purple
-            self.titleLabel?.textColor = UIColor.black
+            self.setTitleColor(UIColor.black, for: .normal)
         }
     }
     

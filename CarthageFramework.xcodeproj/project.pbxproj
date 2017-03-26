@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		C2BBFFAA1E87CBF000F6EB41 /* CarthageFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C2BBFFA81E87CBF000F6EB41 /* CarthageFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2BBFFB11E87CCD800F6EB41 /* DesignFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BBFFB01E87CCD800F6EB41 /* DesignFramework.swift */; };
+		C2BBFFD71E87D4A700F6EB41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BBFFD61E87D4A700F6EB41 /* AppDelegate.swift */; };
+		C2BBFFD91E87D4A700F6EB41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BBFFD81E87D4A700F6EB41 /* ViewController.swift */; };
+		C2BBFFDC1E87D4A700F6EB41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2BBFFDA1E87D4A700F6EB41 /* Main.storyboard */; };
+		C2BBFFDE1E87D4A700F6EB41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2BBFFDD1E87D4A700F6EB41 /* Assets.xcassets */; };
+		C2BBFFE11E87D4A700F6EB41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2BBFFDF1E87D4A700F6EB41 /* LaunchScreen.storyboard */; };
+		C2C03D6A1E87D67700323EA7 /* DesignFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BBFFB01E87CCD800F6EB41 /* DesignFramework.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,10 +22,24 @@
 		C2BBFFA81E87CBF000F6EB41 /* CarthageFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarthageFramework.h; sourceTree = "<group>"; };
 		C2BBFFA91E87CBF000F6EB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2BBFFB01E87CCD800F6EB41 /* DesignFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignFramework.swift; sourceTree = "<group>"; };
+		C2BBFFD41E87D4A700F6EB41 /* FrameworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrameworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BBFFD61E87D4A700F6EB41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2BBFFD81E87D4A700F6EB41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2BBFFDB1E87D4A700F6EB41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2BBFFDD1E87D4A700F6EB41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2BBFFE01E87D4A700F6EB41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2BBFFE21E87D4A700F6EB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C2BBFFA11E87CBF000F6EB41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BBFFD11E87D4A700F6EB41 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				C2BBFFA71E87CBF000F6EB41 /* CarthageFramework */,
+				C2BBFFD51E87D4A700F6EB41 /* FrameworkDemo */,
 				C2BBFFA61E87CBF000F6EB41 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				C2BBFFA51E87CBF000F6EB41 /* CarthageFramework.framework */,
+				C2BBFFD41E87D4A700F6EB41 /* FrameworkDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +75,19 @@
 				C2BBFFB01E87CCD800F6EB41 /* DesignFramework.swift */,
 			);
 			path = CarthageFramework;
+			sourceTree = "<group>";
+		};
+		C2BBFFD51E87D4A700F6EB41 /* FrameworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C2BBFFD61E87D4A700F6EB41 /* AppDelegate.swift */,
+				C2BBFFD81E87D4A700F6EB41 /* ViewController.swift */,
+				C2BBFFDA1E87D4A700F6EB41 /* Main.storyboard */,
+				C2BBFFDD1E87D4A700F6EB41 /* Assets.xcassets */,
+				C2BBFFDF1E87D4A700F6EB41 /* LaunchScreen.storyboard */,
+				C2BBFFE21E87D4A700F6EB41 /* Info.plist */,
+			);
+			path = FrameworkDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,18 +122,40 @@
 			productReference = C2BBFFA51E87CBF000F6EB41 /* CarthageFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		C2BBFFD31E87D4A700F6EB41 /* FrameworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2BBFFE31E87D4A700F6EB41 /* Build configuration list for PBXNativeTarget "FrameworkDemo" */;
+			buildPhases = (
+				C2BBFFD01E87D4A700F6EB41 /* Sources */,
+				C2BBFFD11E87D4A700F6EB41 /* Frameworks */,
+				C2BBFFD21E87D4A700F6EB41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrameworkDemo;
+			productName = FrameworkDemo;
+			productReference = C2BBFFD41E87D4A700F6EB41 /* FrameworkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		C2BBFF9C1E87CBF000F6EB41 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Kiruthika Selvavinayagam";
 				TargetAttributes = {
 					C2BBFFA41E87CBF000F6EB41 = {
 						CreatedOnToolsVersion = 8.2.1;
 						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					C2BBFFD31E87D4A700F6EB41 = {
+						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -109,6 +166,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = C2BBFF9B1E87CBF000F6EB41;
 			productRefGroup = C2BBFFA61E87CBF000F6EB41 /* Products */;
@@ -116,6 +174,7 @@
 			projectRoot = "";
 			targets = (
 				C2BBFFA41E87CBF000F6EB41 /* CarthageFramework */,
+				C2BBFFD31E87D4A700F6EB41 /* FrameworkDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +184,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BBFFD21E87D4A700F6EB41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BBFFE11E87D4A700F6EB41 /* LaunchScreen.storyboard in Resources */,
+				C2BBFFDE1E87D4A700F6EB41 /* Assets.xcassets in Resources */,
+				C2BBFFDC1E87D4A700F6EB41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +208,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C2BBFFD01E87D4A700F6EB41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C03D6A1E87D67700323EA7 /* DesignFramework.swift in Sources */,
+				C2BBFFD91E87D4A700F6EB41 /* ViewController.swift in Sources */,
+				C2BBFFD71E87D4A700F6EB41 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2BBFFDA1E87D4A700F6EB41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2BBFFDB1E87D4A700F6EB41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2BBFFDF1E87D4A700F6EB41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2BBFFE01E87D4A700F6EB41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C2BBFFAB1E87CBF000F6EB41 /* Debug */ = {
@@ -280,6 +378,30 @@
 			};
 			name = Release;
 		};
+		C2BBFFE41E87D4A700F6EB41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FrameworkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ITR.FrameworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C2BBFFE51E87D4A700F6EB41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FrameworkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ITR.FrameworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -299,6 +421,16 @@
 				C2BBFFAF1E87CBF000F6EB41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2BBFFE31E87D4A700F6EB41 /* Build configuration list for PBXNativeTarget "FrameworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BBFFE41E87D4A700F6EB41 /* Debug */,
+				C2BBFFE51E87D4A700F6EB41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
